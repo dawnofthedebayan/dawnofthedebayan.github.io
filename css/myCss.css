@@ -136,14 +136,6 @@ h2 {
    color: rgba(107,142,35, 0.9);
 
 }
-.workprofile {
-  position: absolute;
-  top: 50px;
-  width: 50%;
-  left: 10px;
-  font-size-adjust: auto;
-  color: rgba(107,142,35, 0.9);
-}
 .line {
   position: absolute;
   top: 20%;
@@ -151,6 +143,7 @@ h2 {
   height: 2px;
   background-color: rgba(107,142,35, 0.3);
 }
+
 .view {
   position: absolute;
   display: flex;
@@ -161,6 +154,7 @@ h2 {
   background-color: rgba(255, 255, 255, 0.7);
   border-radius: 25px;
 }
+
 .content {
   position: relative;
   display: flex;
@@ -171,6 +165,78 @@ h2 {
   color: rgba(0,0,0, 0.9);
 
 }
+
+@media all and (min-device-width: 721px){
+    h2 {
+        font-size: 24px;
+    }
+    .line {
+      top: 20%;
+    }
+    .content {
+      font-size : 20px;
+    }
+    .view {
+      height: 30%;
+    }
+}
+
+@media all and (max-device-width: 720px){
+    h2 {
+        font-size: 24px;
+    }
+    .line {
+      top: 20%;
+    }
+    .content {
+      font-size : 20px;
+    }
+    .view {
+      height: 35%;
+    }
+}
+
+@media all and (max-device-width: 640px){
+    h2 {
+        font-size: 22px;
+    }
+    .line {
+      top: 20%;
+    }
+    .content {
+      font-size : 18px;
+    }
+    .view {
+      height: 35%;
+    }
+}
+
+@media all and (max-device-width: 320px){
+    h2 {
+        font-size: 20px;
+    }
+    .line {
+      top: 20%;
+    }
+    .content {
+      font-size : 18px;
+    }
+    .view {
+      height: 35%;
+    }
+}
+
+.workprofile {
+  position: absolute;
+  top: 50px;
+  width: 50%;
+  left: 10px;
+  font-size-adjust: auto;
+  color: rgba(107,142,35, 0.9);
+}
+
+
+
 
 .shadowView {
   box-shadow: 0px 0px 70px;
@@ -184,11 +250,11 @@ h2 {
 }
 .social {
   position: absolute;
-  bottom: 0%;
+  bottom: 10px;
   width: 60%;
   left: 20%;
-  display: flex;
-  justify-content: space-between;
+  /*display: flex;*/
+  /*justify-content: space-between;*/
 
 
 }
